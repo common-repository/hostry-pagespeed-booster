@@ -1,0 +1,11 @@
+{
+  "require": {
+    "matthiasmullie/minify": "1.3.61",
+    "voku/html-min": "^3.1"
+  },
+  "config": {
+    "platform": {
+      "php": "7.0.0"
+    }
+  }
+}

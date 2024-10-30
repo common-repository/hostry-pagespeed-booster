@@ -1,0 +1,303 @@
+# Copyright (C) 2019 HOSTRY.com
+# This file is distributed under the same license as the CDN & Minifier plugin.
+msgid ""
+msgstr ""
+"Project-Id-Version: Hostry PageSpeed Booster\n"
+"Report-Msgid-Bugs-To: https://wordpress.org/support/plugin/cdn-minifier\n"
+"POT-Creation-Date: 2019-04-11T19:05:06+03:00\n"
+"PO-Revision-Date: 2019-04-11 19:05+0300\n"
+"Last-Translator: \n"
+"Language-Team: HOSTRY <info@hostry.com>\n"
+"Language: ru_RU\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 2.2.1\n"
+"X-Domain: cdn-minifier\n"
+"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10>=2 && n"
+"%10<=4 && (n%100<12 || n%100>14) ? 1 : 2);\n"
+
+#. Plugin Name of the plugin
+#: includes/main/view_admin_settings.php:38
+msgid "Hostry PageSpeed Booster"
+msgstr ""
+
+#. Description of the plugin
+msgid ""
+"Speed your website up and improve SEO ranking  as well as WPO rates by using "
+"CDN and  CSS, JavaScript, HTML minifications"
+msgstr ""
+"Ускорьте ваш вебсайт и улучшите SEO ранкинг и WPO показатели посредством "
+"использования CDN сети и минификации CSS, JavaScript and HTML"
+
+#. Author of the plugin
+msgid "HOSTRY.com"
+msgstr ""
+
+#. Author URI of the plugin
+msgid "https://hostry.com/"
+msgstr ""
+
+#: includes/main/CdnMinifierPlugin.php:369
+msgid ""
+"In order to safely display the contents of the website pages, the CDN "
+"settings are disabled because the CDN resource"
+msgstr ""
+"В целях безопасного вывода содержимого страниц вебсайта, настройки CDN "
+"отключены, по причине того что CDN ресурс"
+
+#: includes/main/CdnMinifierPlugin.php:372
+msgid "did not send the corresponding content."
+msgstr "не передал соответствующий контент."
+
+#: includes/main/CdnMinifierPlugin.php:462
+msgid "What is CDN service?"
+msgstr "Что такое CDN service?"
+
+#: includes/main/CdnMinifierPlugin.php:463
+msgid ""
+"CDN stands for \"content delivery network\". It is a distributed network of "
+"dedicated servers that perform content caching to speed up its delivery "
+"('output') to the enduser. Servers are distributed all over the world in "
+"such a way that ensures minimal response time for the website users. In most "
+"cases, videos and static elements of websites are meant by the word "
+"'content' (such that require no server code execution or database queries, "
+"like css / js)."
+msgstr ""
+"CDN — сокращенное название “content delivery network”, или “сеть доставки "
+"контента”. Представляет собой распределенную сеть специализированных "
+"серверов выполняющих функцию кэширования контента, с целью ускорения "
+"доставки (“отдачи”) контента конечному пользователю. Сервера расположены по "
+"всему миру таким образом, чтобы время ответа посетителям сайта было "
+"минимальным. Под “контентом” чаще всего подразумевают видео и статические "
+"элементы веб-сайтов (не требующие выполнения кода на сервере или запросов в "
+"базу данных, такие как css/js)."
+
+#: includes/main/CdnMinifierPlugin.php:466
+msgid "What is  Hostry FREE CDN?"
+msgstr "Что такое Hostry FREE CDN?"
+
+#: includes/main/CdnMinifierPlugin.php:467
+msgid ""
+"Hostry FREE CDN is a premium-class global CDN (Content Delivery Network) "
+"service, with 48 Points of Presence (PoP) around the world and available "
+"free-of-charge use."
+msgstr ""
+"Hostry FREE CDN – это услуга глобальной CDN (Content Delivery Network) сети "
+"премиального класса, с 48 представленными мировыми локациями (PoP) и "
+"возможностью бесплатного пользования."
+
+#: includes/main/CdnMinifierPlugin.php:470
+msgid "How Does CDN Operate?"
+msgstr "Как работает CDN?"
+
+#: includes/main/CdnMinifierPlugin.php:471
+msgid ""
+"User interaction: on example.com he is given an html page. On such html-page "
+"all css, js, pictures and video are linked to cdn.example.com, which means "
+"that the content is downloaded from the CDN network. When the client's "
+"browser accesses the CDN address, the request goes to the nearest responding "
+"server and the respond is delivered the same way by the short route."
+msgstr ""
+"Со стороны посетителя сайта: он заходит на сайт example.com, где ему отдают "
+"html-страницу. На такой html-странице css, js, картинки и видео — ссылаются "
+"на сайт cdn.example.com — контент загружается из CDN сети. Когда браузер "
+"клиента обращается к адресу CDN, запрос уходит на ближайший сервер, который "
+"отвечает на него, и ответ уходит аналогично, тоже по короткому маршруту."
+
+#: includes/main/CdnMinifierPlugin.php:474
+msgid "How Does CDN Influence SEO?"
+msgstr "Как CDN влияет на SEO?"
+
+#: includes/main/CdnMinifierPlugin.php:475
+msgid ""
+"CDN directly affects such an aspect as website loading speed and, "
+"accordingly,  along with other aspects is considered to be a factor "
+"affecting the results of the search systems query (Google, Bing, Yandex, "
+"Baidu, etc.)."
+msgstr ""
+"CDN напрямую влияет на такой показатель как скорость загрузки сайта и "
+"соответственно рассматривается как фактор влияния, в комплексе с другими "
+"показателями, на поисковую выдачу вебсайта в поисковых системах (Google,Bing,"
+"Yandex,Baidu и т.д.)."
+
+#: includes/main/CdnMinifierPlugin.php:478
+msgid "How do CDNs Help SEO?"
+msgstr ""
+
+#: includes/main/CdnMinifierPlugin.php:479
+msgid ""
+"CDNs improve the speed and quality of content that is delivered to the user. "
+"CDNs should be seen as part of the solution for search ranking as it is "
+"applied to page speed and efficient content delivery, but it is not the only "
+"thing that needs to be done to increase search ranking. Think of CDNs as a "
+"way to improve upon the technical ranking factors for SEO."
+msgstr ""
+
+#: includes/main/CdnMinifierPlugin.php:485
+msgid "Overview"
+msgstr ""
+
+#: includes/main/CdnMinifierPlugin.php:493
+msgid "What Is Minification?"
+msgstr "Что такое Минификация?"
+
+#: includes/main/CdnMinifierPlugin.php:494
+msgid ""
+"Minification (minify) is a simple approach to minimization of css, js, and "
+"html file size. When being compressed, all code comments, line breaks, extra "
+"tabs and whitespaces are deleted. It helps to spare 10 ... 20% of the "
+"original file size."
+msgstr ""
+"Минификация (minify) — это простой подход для уменьшения размеров файлов "
+"css, js и html. В процессе сжатия все комментарии к коду, переносы строк, "
+"лишние табы и пробельные символы удаляются. Это позволяет сэкономить "
+"10...20% от оригинального размера файла."
+
+#: includes/main/CdnMinifierPlugin.php:496
+msgid ""
+"When minifying CSS / JS, merging of all the files in a single one is also "
+"used to reduce the amount of requests to the web server."
+msgstr ""
+"При минификаций CSS/JS применяется и склейка всех файлов в один файл, для "
+"сокращения количество запросов до вебсервера."
+
+#: includes/main/CdnMinifierPlugin.php:502
+msgid "CSS/JS/HTML Minification"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:48
+msgid "Use the service"
+msgstr "Используйте услугу"
+
+#: includes/main/view_admin_settings.php:49
+msgid ""
+"and ensure fast loading of your static content (images, CSS, JavaScript, "
+"video, etc.) significantly improving the response time of the server."
+msgstr ""
+"и обеспечьте быструю загрузку вашего статического контента (изображений, "
+"CSS, JavaScript, видео и т.д) значительно улучшая время отклика сервера."
+
+#: includes/main/view_admin_settings.php:58
+msgid "CDN Settings"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:64
+msgid "CDN Enable"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:69
+msgid ""
+"Activating the CDN module will replace the current static links with the "
+"links of the CDN resource."
+msgstr ""
+"Активация CDN модуля сменит текущие ссылки статики на ссылки CDN ресурса."
+
+#: includes/main/view_admin_settings.php:75
+msgid "CDN URL"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:78
+msgid ""
+"Specify a link to a CDN resource to replace static links. You can get this "
+"link from your CDN provider."
+msgstr ""
+"Укажите ссылку на CDN ресурс для перезаписи статических ссылок. Эту ссылку "
+"вы можете получить у вашего CDN провайдера."
+
+#: includes/main/view_admin_settings.php:83
+msgid "CDN Include"
+msgstr "Как работает CDN?"
+
+#: includes/main/view_admin_settings.php:89
+msgid "Theme files"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:97
+msgid "Plugins files"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:105
+msgid "Attachments (images for post, other files upload)"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:113
+msgid "Other files in /wp-content"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:121
+msgid "Standard WordPress files"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:128
+msgid "CDN extensions apply"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:132
+msgid ""
+"Specify the file extensions to download from the CDN network, using the "
+"comma separator \",\". Example: css, js"
+msgstr ""
+"Укажите расширения файлов для загрузки из CDN сети, используя разделитель "
+"запятую \",\". Пример: css, js"
+
+#: includes/main/view_admin_settings.php:139
+#: includes/main/view_admin_settings.php:228
+msgid "Save Changes"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:153
+msgid "Minifier HTML&CSS&JS Settings"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:162
+msgid "HTML Minifier"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:173
+msgid ""
+"Includes the function of minifying HTML pages. Reduces white space and "
+"comments."
+msgstr ""
+"Включает функцию минификации HTML страниц. Сокращает пробелы и комментарии."
+
+#: includes/main/view_admin_settings.php:176
+msgid ""
+"The option is available for the PHP version of at least <b>5.4.0</b> and "
+"enabled module <b>DOMDocument</b>."
+msgstr ""
+"Опция доступна для версии PHP не менее <b>5.4.0</b> и с включенным модулем "
+"<b>DOMDocument</b>."
+
+#: includes/main/view_admin_settings.php:186
+msgid "CSS Minifier"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:195
+msgid ""
+"Minification CSS scripts, optimizes elements and removes spaces. "
+"Concatenation of files into one."
+msgstr ""
+"Минификация CSS скриптов, оптимизирует элементы и удаляет пробелы. "
+"Конкатенация файлов в один."
+
+#: includes/main/view_admin_settings.php:198
+#: includes/main/view_admin_settings.php:220
+msgid "The option is available for the PHP version of at least <b>7.0.0</b>."
+msgstr "Опция доступна для версии PHP не менее <b>7.0.0</b>."
+
+#: includes/main/view_admin_settings.php:208
+msgid "JS Minifier"
+msgstr ""
+
+#: includes/main/view_admin_settings.php:217
+msgid ""
+"Minification JS scripts, optimizes internal variables functions, comments "
+"and whitespace. Concatenation of files into one."
+msgstr ""
+"Минификация JS скриптов, оптимизирует внутренние переменные функций, "
+"комментарии и пробелы. Конкатенация файлов в один."
+
+#: includes/main/view_admin_settings.php:230
+msgid "Clear cache minified"
+msgstr ""
